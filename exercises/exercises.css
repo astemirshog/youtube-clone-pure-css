@@ -1,3 +1,7 @@
+section {
+    margin: 50px;
+}
+
 .ex1 img {
     width: 300px;
     border-radius: 20px;
@@ -8,4 +12,87 @@
     height: 300px;
     object-fit: cover;
     object-position: center;
+}
+
+.ex3 img {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.ex4 input {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: lightgrey;
+    border-style: solid;
+}
+
+.ex5 input {
+    width: 500px;
+    padding: 15px;
+    padding-left: 25px;
+    font-size: 18px;
+    border-radius: 250px;
+    border: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ex6 {
+    font-family: Arial;
+}
+
+.ex6 label {
+    color: grey;
+}
+
+.ex6 div {
+    margin-top: 10px;
+}
+
+.ex6 input {
+    width: 350px;
+    height: 30px;
+    border-color: rgb(77, 76, 76);
+    border-style: solid;
+    border-radius: 4px;
+}
+
+.ex6 p {
+    color: rgb(112, 112, 112);
+    font-size: 14px;
+}
+
+.ex6 button {
+    width: 357px;
+    height: 50px;
+    color: white;
+    background-color: #2D60A9;
+    border-radius: 25px;
+    border-style: none;
+    font-size: 18px;
+}
+
+.ex7 {
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+}
+
+.ex7 img {
+    height: 100px;
+    width: 100px;
+    border: 0;
+    vertical-align: middle;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.ex7 input {
+    vertical-align: middle;
+}
+
+.ex7 button {
+    vertical-align: middle;
 }
