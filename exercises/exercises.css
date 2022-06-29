@@ -81,18 +81,35 @@ section {
 }
 
 .ex7 img {
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     border: 0;
     vertical-align: middle;
-    border-radius: 50px;
+    border-radius: 30px;
     object-fit: cover;
 }
 
 .ex7 input {
     vertical-align: middle;
+    border-style: none;
+    margin: 10px;
+    font-size: 20px;
+    width: 300px;
+}
+
+.ex7 input:focus {
+    outline: none;
+    color: grey;
 }
 
 .ex7 button {
     vertical-align: middle;
+    border-style: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: #4E96D9;
+    font-size: 15px;
+    font-weight: bold;
 }
