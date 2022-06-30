@@ -167,3 +167,50 @@ section {
     font-weight: bold;
     cursor: pointer;
 }
+
+.ex8e {
+    font-family: Arial;
+}
+
+.ex8e h1 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.ex8e .pickup {
+    display: block;
+    margin-bottom: 5px;
+    width: 320px;
+    border: none;
+    background-color: #F3F2F3;
+    padding: 15px 15px;
+    font-size: 16px;
+}
+
+.ex8e .destination {
+    width: 320px;
+    display: block;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #F3F2F3;
+    padding: 15px 15px;
+    font-size: 16px;
+}
+
+.ex8e .now {
+    border-style: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.ex8e .later {
+    border-style: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
