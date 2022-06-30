@@ -37,14 +37,16 @@ section {
     margin-bottom: 20px;
 }
 .ex5 input {
+    display: flex;
     width: 500px;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 25px;
     font-size: 18px;
     border-radius: 250px;
     border: none;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-    margin-left: 130px;
+    margin: 0 auto;
 }
 
 .ex6 {
@@ -134,4 +136,34 @@ section {
 
 .ex8b button {
     vertical-align: middle;
+}
+
+.ex8d input {
+    width: 115px;
+    padding: 12px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: lightgrey;
+    font-size: 16px;
+}
+.ex8d .first-name {
+    margin-bottom: 10px;
+}
+
+.ex8d .email {
+    display: block;
+    width: 262px;
+}
+
+.ex8d button {
+    margin-top: 10px;
+    width: 290px;
+    padding: 12px;
+    border-style: none;
+    color: white;
+    background-color: #4280ED;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
 }
