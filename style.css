@@ -1,8 +1,13 @@
 .thumbnail {
-    width: 243px;
+    width: 350px;
+    display: block;
 }
 
 .search-bar {
     font-size: 20px;
     margin-left: 20px;
+}
+
+.video-title {
+   width: 300px; 
 }
