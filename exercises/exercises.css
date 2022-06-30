@@ -113,3 +113,18 @@ section {
     font-size: 15px;
     font-weight: bold;
 }
+
+.ex8a input {
+    display: block;
+    margin: 4px 0;
+}
+
+.ex8b p {
+    display: inline-block;
+    width: 230px;
+    vertical-align: middle;
+}
+
+.ex8b button {
+    vertical-align: middle;
+}
