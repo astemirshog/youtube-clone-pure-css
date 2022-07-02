@@ -1,5 +1,5 @@
 .thumbnail {
-    width: 350px;
+    width: 300px;
     display: block;
 }
 
@@ -13,5 +13,5 @@
 }
 
 .video-preview {
-    
+    width: 300px;
 }

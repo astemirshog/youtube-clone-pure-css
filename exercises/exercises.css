@@ -214,3 +214,12 @@ section {
     font-size: 16px;
     cursor: pointer;
 }
+
+.cat {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 200px;
+    border-style: dotted;
+    border-width: 5px;
+}
